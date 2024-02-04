@@ -138,7 +138,7 @@ export default function Home() {
             </h1>
           </div>
         </div>
-        <a href="https://iamgabelogan65.github.io/portfolio/resume.pdf" className="flex items-center gap-2 bg-black hover:bg-gray-700 self-center rounded-lg p-2 mb-3 mt-6 text-white no-underline">
+        <a href="resume.pdf" className="flex items-center gap-2 bg-black hover:bg-gray-700 self-center rounded-lg p-2 mb-3 mt-6 text-white no-underline">
             Here&apos;s my resume!
           </a>
       </div>
