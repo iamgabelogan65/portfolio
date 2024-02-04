@@ -67,14 +67,6 @@ export default function Home(props: Props) {
 
   const container = window !== undefined ? () => window().document.body : undefined;
 
-  const githubRepoButton = (
-    <button className="flex items-center gap-2 bg-black hover:bg-gray-700 self-center rounded-lg p-2 mb-3 text-white">
-      <FaGithub size={20} />
-      Github
-    </button>
-  )
-
-
   
 
   return (
@@ -130,7 +122,7 @@ export default function Home(props: Props) {
       </Box>
 
 
-      <div className="bg-[url('./images/cs-background-pic.jpg')] bg-cover opacity-90 h-screen flex flex-col items-center justify-center gap-8 text-[#e1f3ff] text-center" id="home">
+      <div className="bg-[url('/images/cs-background-pic.jpg')] bg-cover opacity-90 h-screen flex flex-col items-center justify-center gap-8 text-[#e1f3ff] text-center" id="home">
         <h1 className="text-[3rem]">David Sambilay</h1>
         <h2 className="text-xl">Aspiring Software Engineer</h2>
       </div>
@@ -157,7 +149,7 @@ export default function Home(props: Props) {
             </h1>
           </div>
         </div>
-        <a href="./DavidSambilayResume.pdf" className="flex items-center gap-2 bg-black hover:bg-gray-700 self-center rounded-lg p-2 mb-3 mt-6 text-white no-underline">
+        <a href="/DavidSambilayResume.pdf" className="flex items-center gap-2 bg-black hover:bg-gray-700 self-center rounded-lg p-2 mb-3 mt-6 text-white no-underline">
             Here's my resume!
           </a>
       </div>
@@ -170,7 +162,7 @@ export default function Home(props: Props) {
             <div>
               <Image
                 alt="mellow project" 
-                src="./images/mellow.png"
+                src="/images/mellow.png"
                 width={500}
                 height={500}
                 className="self-center"
@@ -197,7 +189,7 @@ export default function Home(props: Props) {
             <div>
               <Image
                 alt="miscord project" 
-                src="./images/miscord.png"
+                src="/images/miscord.png"
                 width={500}
                 height={500}
                 className="self-center"
@@ -223,7 +215,7 @@ export default function Home(props: Props) {
             <div>
               <Image
                 alt="design img" 
-                src="./images/auctionhouse.png"
+                src="/images/auctionhouse.png"
                 width={500}
                 height={500}
                 className="self-center"                
