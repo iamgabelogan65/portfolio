@@ -6,7 +6,6 @@ import Image from "next/image";
 
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
-// import { SiGmail } from "react-icons/si";
 
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
@@ -139,7 +138,7 @@ export default function Home() {
             </h1>
           </div>
         </div>
-        <a href="../../public/resume.pdf" className="flex items-center gap-2 bg-black hover:bg-gray-700 self-center rounded-lg p-2 mb-3 mt-6 text-white no-underline">
+        <a href="/resume.pdf" className="flex items-center gap-2 bg-black hover:bg-gray-700 self-center rounded-lg p-2 mb-3 mt-6 text-white no-underline">
             Here&apos;s my resume!
           </a>
       </div>
