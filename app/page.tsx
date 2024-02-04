@@ -111,7 +111,7 @@ export default function Home() {
       </Box>
 
 
-      <div className="bg-[url('/images/cs-background-pic.jpg')] bg-cover opacity-90 h-screen flex flex-col items-center justify-center gap-8 text-[#e1f3ff] text-center" id="home">
+      <div className="bg-[url('./public/images/cs-background-pic.jpg')] bg-cover opacity-90 h-screen flex flex-col items-center justify-center gap-8 text-[#e1f3ff] text-center" id="home">
         <h1 className="text-[3rem]">David Sambilay</h1>
         <h2 className="text-xl">Aspiring Software Engineer</h2>
       </div>
@@ -138,7 +138,7 @@ export default function Home() {
             </h1>
           </div>
         </div>
-        <a href="/DavidSambilayResume.pdf" className="flex items-center gap-2 bg-black hover:bg-gray-700 self-center rounded-lg p-2 mb-3 mt-6 text-white no-underline">
+        <a href="./public/DavidSambilayResume.pdf" className="flex items-center gap-2 bg-black hover:bg-gray-700 self-center rounded-lg p-2 mb-3 mt-6 text-white no-underline">
             Here&apos;s my resume!
           </a>
       </div>
@@ -149,9 +149,9 @@ export default function Home() {
 
           <div className='flex flex-col justify-between shadow-xl rounded-lg lg:w-[30%] w-[100%] my-10'>
             <div>
-              <img
+              <Image
                 alt="mellow project" 
-                src="./images/mellow.png"
+                src="./public/images/mellow.png"
                 width={500}
                 height={500}
                 className="self-center"
@@ -176,9 +176,9 @@ export default function Home() {
 
           <div className='flex flex-col justify-between shadow-xl rounded-lg lg:w-[30%] w-[100%]  my-10'>
             <div>
-              <img
+              <Image
                 alt="miscord project" 
-                src="./images/miscord.png"
+                src="./public/images/miscord.png"
                 width={500}
                 height={500}
                 className="self-center"
@@ -202,9 +202,9 @@ export default function Home() {
 
           <div className='flex flex-col justify-between shadow-xl rounded-lg lg:w-[30%] w-[100%] my-10'>
             <div>
-              <img
+              <Image
                 alt="design img" 
-                src="./images/auctionhouse.png"
+                src="./public/images/auctionhouse.png"
                 width={500}
                 height={500}
                 className="self-center"                
