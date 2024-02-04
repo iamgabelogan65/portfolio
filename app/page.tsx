@@ -133,7 +133,7 @@ export default function Home(props: Props) {
           <img className="rounded-full w-[25rem] h-[25rem] object-cover max-md:mx-auto my-4" src="./images/about.jpg"/>
           <div className="flex flex-col gap-5 justify-center text-left">
             <h1 className="text-[2rem]">
-              Hi! I'm David.
+              Hi! I&apos;m David.
             </h1>
             <h1>
               I am an aspiring software engineer
@@ -143,14 +143,14 @@ export default function Home(props: Props) {
               and pave a way for a better future.
             </h1>
             <h1>
-              When I'm not using my computer, I like to spend
+              When I&apos;m not using my computer, I like to spend
               my time playing basketball, playing guitar, weightlifting, and, most
               of all, spending time with family and friends.
             </h1>
           </div>
         </div>
         <a href="/DavidSambilayResume.pdf" className="flex items-center gap-2 bg-black hover:bg-gray-700 self-center rounded-lg p-2 mb-3 mt-6 text-white no-underline">
-            Here's my resume!
+            Here&apos;s my resume!
           </a>
       </div>
 
@@ -244,7 +244,7 @@ export default function Home(props: Props) {
       </div>
 
       <div className="border-t-2 border-gray-150 pt-8" id="contact">
-        <h1 className="text-[2.5rem] text-center">Let's Connect!</h1>
+        <h1 className="text-[2.5rem] text-center">Let&apos;s Connect!</h1>
         <div className="flex md:flex-row flex-col justify-around m-8">
           <div className="flex md:flex-row flex-col items-center gap-4">
             <a href="https://github.com/iamgabelogan65"><FaGithub size={50} className="hover:text-gray-500 cursor-pointer" /></a>
