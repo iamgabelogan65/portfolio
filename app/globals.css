@@ -2,7 +2,34 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.about {
+  width: 100%;
+  height: 100px;
+  background: #ed6060;
+}
+
+.project {
+  width: 100%;
+  height: 100px;
+  background: #d3eecc;
+}
+
+.contact {
+  width: 100%;
+  height: 100px;
+  background: #3240ac;
+}
+
+
+
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -30,4 +57,4 @@ body {
   .text-balance {
     text-wrap: balance;
   }
-}
+} */
