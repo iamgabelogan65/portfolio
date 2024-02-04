@@ -23,6 +23,7 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import { Link } from "@mui/material";
 
+import csBackground from "@/public/images/cs-background-pic.jpg"
 
 const drawerWidth = 240;
 const navItems = [{primary: 'Home', link: '#home'}, {primary: 'About', link: '#about'}, {primary: 'Projects', link: '#projects'}, {primary: 'Contact', link: '#contact'}];
@@ -111,7 +112,7 @@ export default function Home() {
       </Box>
 
 
-      <div style={{ backgroundImage: 'url(/images/cs-background-pic.jpg)' }} className="bg-cover opacity-90 h-screen flex flex-col items-center justify-center gap-8 text-[#e1f3ff] text-center" id="home">
+      <div style={{ backgroundImage: `url(${csBackground.src})` }} className="bg-cover opacity-90 h-screen flex flex-col items-center justify-center gap-8 text-[#e1f3ff] text-center" id="home">
         <h1 className="text-[3rem]">David Sambilay</h1>
         <h2 className="text-xl">Aspiring Software Engineer</h2>
       </div>
